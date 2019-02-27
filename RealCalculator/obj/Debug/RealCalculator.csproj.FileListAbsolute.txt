@@ -1,0 +1,6 @@
+C:\Users\vitan\OneDrive\Desktop\TestSolution\RealCalculator\bin\Debug\RealCalculator.exe.config
+C:\Users\vitan\OneDrive\Desktop\TestSolution\RealCalculator\bin\Debug\RealCalculator.exe
+C:\Users\vitan\OneDrive\Desktop\TestSolution\RealCalculator\bin\Debug\RealCalculator.pdb
+C:\Users\vitan\OneDrive\Desktop\TestSolution\RealCalculator\obj\Debug\RealCalculator.csproj.CoreCompileInputs.cache
+C:\Users\vitan\OneDrive\Desktop\TestSolution\RealCalculator\obj\Debug\RealCalculator.exe
+C:\Users\vitan\OneDrive\Desktop\TestSolution\RealCalculator\obj\Debug\RealCalculator.pdb
