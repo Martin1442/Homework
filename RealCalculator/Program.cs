@@ -40,15 +40,15 @@ namespace RealCalculator
                 {
                     result = firstNum + secondNum;
                 }
-                if (operationSign == "-")
+                else if (operationSign == "-")
                 {
                     result = firstNum - secondNum;
                 }
-                if (operationSign == "*")
+                else if (operationSign == "*")
                 {
                     result = firstNum * secondNum;
                 }
-                if (operationSign == "/")
+                else if (operationSign == "/")
                 {
                     result = firstNum / secondNum;
                 }
