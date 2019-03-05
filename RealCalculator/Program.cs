@@ -68,9 +68,14 @@ namespace RealCalculator
                     if (secondNumber == "0")
                     {
                         secondNum = 0;
+                        Array.Resize(ref history, history.Length + 1);
+                        history[counter] = secondNumber;
+                        counter++;
                         break;
                     }
+
                     bool convertSecondNum = double.TryParse(secondNumber, out secondNum);
+                
                     if (secondNum == 0)
                     {
                         Console.WriteLine("Invalid number");
