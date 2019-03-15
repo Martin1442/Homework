@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace ConsoleApp8._1.MyClases
 {
@@ -12,6 +11,8 @@ namespace ConsoleApp8._1.MyClases
         public string LastName { get; set; }
         public double Salary { get; set; }
         public Role Position { get; set; }
+        protected int WorkCardNumber { get; set; }
+
 
         public enum Role
         {
@@ -28,6 +29,16 @@ namespace ConsoleApp8._1.MyClases
         public virtual double GetSalary()
         {
             return Salary;
+        }
+
+        protected int SetWorkCardNumber()
+        {
+            return WorkCardNumber = new Random().Next(1000000, 9999999);
+        }
+
+        public int GetWorkCardNumber()
+        {
+            return WorkCardNumber;
         }
     }
 

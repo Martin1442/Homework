@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp8._1.MyClases
 {
-    class ManagerPerson : Employee
+    public class ManagerPerson : Employee
     {
         private double Bonus { get; set; }
 
@@ -15,6 +15,8 @@ namespace ConsoleApp8._1.MyClases
             FirstName = firstName;
             LastName = lastName;
             Position = Role.Manager;
+            WorkCardNumber = SetWorkCardNumber();
+
         }
 
         public void AddBonus(double bonus)

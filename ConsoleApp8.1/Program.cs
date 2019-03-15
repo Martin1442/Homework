@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ConsoleApp8._1.MyClases;
 
 namespace ConsoleApp8._1
 {
@@ -10,6 +8,14 @@ namespace ConsoleApp8._1
     {
         static void Main(string[] args)
         {
+
+            var manager = new ManagerPerson("Bob", "Vilsky");
+
+            var CardNumber = manager.GetWorkCardNumber();
+            
+            
+            Console.WriteLine(CardNumber);
+            Console.ReadLine();
         }
     }
 }

@@ -18,6 +18,7 @@ namespace ConsoleApp8._1.MyClases
             SuccesSaleRevenue = success;
             Salary = 500;
             Position = Role.Sales;
+            WorkCardNumber = SetWorkCardNumber();
         }
 
         public void AddSuccessRevenue(double sucess)
