@@ -4,4 +4,3 @@ C:\Users\vitan\OneDrive\Desktop\TestSolution\Market_Aplication\bin\Debug\Market_
 C:\Users\vitan\OneDrive\Desktop\TestSolution\Market_Aplication\obj\Debug\Market_Aplication.csproj.CoreCompileInputs.cache
 C:\Users\vitan\OneDrive\Desktop\TestSolution\Market_Aplication\obj\Debug\Market_Aplication.exe
 C:\Users\vitan\OneDrive\Desktop\TestSolution\Market_Aplication\obj\Debug\Market_Aplication.pdb
-C:\Users\vitan\OneDrive\Desktop\TestSolution\Market_Aplication\obj\Debug\Market_Aplication.csprojAssemblyReference.cache
