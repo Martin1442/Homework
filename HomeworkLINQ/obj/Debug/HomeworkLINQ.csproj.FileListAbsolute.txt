@@ -1,0 +1,7 @@
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CoreCompileInputs.cache
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe.config
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\bin\Debug\HomeworkLINQ.pdb
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\obj\Debug\HomeworkLINQ.exe
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\obj\Debug\HomeworkLINQ.pdb
+C:\Users\vitan\OneDrive\Desktop\TestSolution\HomeworkLINQ\obj\Debug\HomeworkLINQ.csprojAssemblyReference.cache
