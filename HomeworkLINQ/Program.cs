@@ -71,26 +71,55 @@ namespace HomeworkLINQ
             // 1. Take person Cristofer and add Jack, Ellie and Hank as his dogs.
             
             var cristofer = people[19];
-            cristofer.Dogs.Add(dogs[9]);
-            cristofer.Dogs.Add(dogs[14]);
-            cristofer.Dogs.Add(dogs[15]);
+            var jack = dogs.Where(dog => dog.Name == "Jack").ToList();
+            cristofer.Dogs.AddRange(jack);
+
+            var ellie = dogs.Where(dog => dog.Name == "Ellie").ToList();
+            cristofer.Dogs.AddRange(ellie);
+
+            var hank = dogs.Where(dog => dog.Name == "Hank").ToList();
+            cristofer.Dogs.AddRange(hank);
+
             // 2. Take person Freddy and add Oscar, Toby, Chanel, Bo and Scout as his dogs.
+
             var freddy = people[17];
-            freddy.Dogs.Add(dogs[4]);
-            freddy.Dogs.Add(dogs[5]);
-            freddy.Dogs.Add(dogs[10]);
-            freddy.Dogs.Add(dogs[12]);
-            freddy.Dogs.Add(dogs[13]);
+
+            var oscar = dogs.Where(dog => dog.Name == "Oscar").ToList();
+            freddy.Dogs.AddRange(oscar);
+
+            var toby = dogs.Where(dog => dog.Name == "Toby").ToList();
+            freddy.Dogs.AddRange(toby);
+
+            var chanel = dogs.Where(dog => dog.Name == "Chanel").ToList();
+            freddy.Dogs.AddRange(chanel);
+
+            var bo = dogs.Where(dog => dog.Name == "Bo").ToList();
+            freddy.Dogs.AddRange(bo);
+
+            var scout = dogs.Where(dog => dog.Name == "Scout").ToList();
+            freddy.Dogs.AddRange(scout);
+
             // 3. Add Trixie, Archie and Max as dogs from Erin
+
             var erin = people[16];
-            erin.Dogs.Add(dogs[2]);
-            erin.Dogs.Add(dogs[3]);
-            erin.Dogs.Add(dogs[19]);
+
+            var trixie = dogs.Where(dog => dog.Name == "Trixie").ToList();
+            erin.Dogs.AddRange(trixie);
+
+            var archie = dogs.Where(dog => dog.Name == "Archie").ToList();
+            erin.Dogs.AddRange(archie);
+
+            var max = dogs.Where(dog => dog.Name == "Max").ToList();
+            erin.Dogs.AddRange(max);
 
             // 4. Give Abby and Shadow to Amelia
             var amelia = people[12];
-            amelia.Dogs.Add(dogs[18]);
-            amelia.Dogs.Add(dogs[16]);
+
+            var abby = dogs.Where(dog => dog.Name == "Abby").ToList();
+            erin.Dogs.AddRange(abby);
+
+            var shadow = dogs.Where(dog => dog.Name == "Shadow").ToList();
+            erin.Dogs.AddRange(shadow);
 
             //PART 3 - LINQ
             // 1. Find and print all persons firstnames starting with 'R', ordered by Age - DESCENDING ORDER
